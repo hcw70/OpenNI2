@@ -11,6 +11,7 @@ Build-Depends: debhelper (>= 7.0.50~),
                libusb-1.0-0-dev (>= 1.0.8),
                python (>= 2.6),
                doxygen,
+               libjpeg-dev,
                graphviz
 Standards-Version: 3.9.2
 Homepage: http://www.openni.org
