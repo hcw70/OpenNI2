@@ -4,3 +4,4 @@
 0005-change-default-ni-drivers-path.patch
 0006-rpi-Added-Armv6l-as-new-target-platform-and-created-missing-OniPlatformLinux-Arm.h-header.patch
 0006-Disable-SSE.patch
+0007-Link-NiViewer-against-ptherad-DSO-on-Ubuntu-raring.patch
