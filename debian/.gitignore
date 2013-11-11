@@ -1,0 +1,12 @@
+/libopenni2
+/openni2-doc
+/openni2-utils
+/libopenni2-dev
+/*.log
+/libopenni2.postinst.debhelper
+/libopenni2.postrm.debhelper
+/libopenni2.substvars
+/openni2-doc.substvars
+/openni2-utils.substvars
+/files
+/libopenni2-dev.substvars

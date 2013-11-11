@@ -1,0 +1,5 @@
+openni2 (2.3.0.14.1-1) unstable; urgency=low
+
+  * Initial creation of debian package
+ -- Hauke Wintjen <hwintjen@rimpl-consulting.de>  Tue, 14 Mar 2013 00:40:17 +0100
+
