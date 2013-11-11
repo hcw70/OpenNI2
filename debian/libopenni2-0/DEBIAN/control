@@ -1,0 +1,17 @@
+Package: libopenni2-0
+Source: openni2
+Version: 2.3.0.14.1-1
+Architecture: amd64
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 1597
+Depends: libc6 (>= 2.15), libgcc1 (>= 1:4.1.1), libjpeg8 (>= 8c), libstdc++6 (>= 4.1.1), libudev0 (>= 147), libusb-1.0-0 (>= 2:1.0.8)
+Section: libs
+Priority: optional
+Homepage: http://www.openni.org
+Description: framework for sensor-based 'Natural Interaction'
+ OpenNI2 is a framework for getting data to support 'Natural Interaction',
+ i.e. skeleton tracking, gesture tracking, and similar ways of getting data
+ from humans. OpenNI2 provides the interface for physical devices and for
+ middleware components. The API enables modules to be registered in the OpenNI2
+ framework, which then produce sensory data. OpenNI2 also allows selection of
+ different hardware and middleware modules.
