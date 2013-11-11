@@ -1,0 +1,19 @@
+openni2 (2.1.0.4-1ubuntu1~1.gbp2a4158) UNRELEASED; urgency=low
+
+  ** SNAPSHOT build @2a4158ba551d1f7de2549afc4400bd4110641cce **
+
+  * Some ignores
+  * Ignore eclipse projects
+  * Some more ignores
+  * Some ignores
+  * Refresh patches
+  * Refresh patches
+  * more refresh
+
+ -- Hauke Wintjen <hwintjen@rimpl-consulting.de>  Fri, 29 Mar 2013 23:14:11 +0100
+
+openni2 (2.1.0.4-1) unstable; urgency=low
+
+  * Initial creation of debian package
+ -- Hauke Wintjen <hwintjen@rimpl-consulting.de>  Tue, 14 Mar 2013 00:40:17 +0100
+

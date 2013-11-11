@@ -1,0 +1,42 @@
+From: Hauke Wintjen <hwintjen@rimpl-consulting.de>
+Date: Fri, 29 Mar 2013 21:16:28 +0100
+Subject: Change path of config files to /etc/openni2
+
+---
+ Source/Drivers/PS1080/Sensor/XnSensor.cpp |    2 +-
+ Source/Tools/NiViewer/NiViewer.cpp        |    2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+--- a/Source/Drivers/PS1080/Sensor/XnSensor.cpp
++++ b/Source/Drivers/PS1080/Sensor/XnSensor.cpp
+@@ -40,7 +40,7 @@
+ #define XN_SENSOR_FRAME_SYNC_MAX_DIFF					3
+ #define XN_SENSOR_DEFAULT_CLOSE_STREAMS_ON_SHUTDOWN		TRUE
+ #define XN_SENSOR_DEFAULT_HOST_TIMESTAMPS				FALSE
+-#define XN_GLOBAL_CONFIG_FILE_NAME						"PS1080.ini"
++#define XN_GLOBAL_CONFIG_FILE_NAME						"/etc/openni2/PS1080.ini"
+ 
+ #define FRAME_SYNC_MAX_FRAME_TIME_DIFF					3000
+ 
+--- a/Source/Tools/NiViewer/NiViewer.cpp
++++ b/Source/Tools/NiViewer/NiViewer.cpp
+@@ -75,7 +75,7 @@
+ // --------------------------------
+ // Defines
+ // --------------------------------
+-#define SAMPLE_XML_PATH "../../../../Data/SamplesConfig.xml"
++#define SAMPLE_XML_PATH "/etc/openni2/SamplesConfig.xml"
+ 
+ // --------------------------------
+ // Types
+--- a/Source/Core/OniContext.cpp
++++ b/Source/Core/OniContext.cpp
+@@ -24,7 +24,7 @@
+ #include <XnLog.h>
+ #include <XnOSCpp.h>
+ 
+-static const char* ONI_CONFIGURATION_FILE = "OpenNI.ini";
++static const char* ONI_CONFIGURATION_FILE = "/etc/openni2/OpenNI.ini";
+ static const char* ONI_DEFAULT_DRIVERS_REPOSITORY = "OpenNI2" XN_FILE_DIR_SEP "Drivers";
+ 
+ #define XN_MASK_ONI_CONTEXT "OniContext"

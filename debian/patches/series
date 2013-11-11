@@ -1,0 +1,7 @@
+0001-Add-SONAME-to-libraries.patch
+0002-Change-path-of-config-files-to-etc-openni2.patch
+0003-Use-system-wide-libjpeg.patch
+0005-change-default-ni-drivers-path.patch
+0006-rpi-Added-Armv6l-as-new-target-platform-and-created-missing-OniPlatformLinux-Arm.h-header.patch
+0006-Disable-SSE.patch
+0007-Link-NiViewer-against-ptherad-DSO-on-Ubuntu-raring.patch
