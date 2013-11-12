@@ -15,7 +15,7 @@ Subject: Add SONAME to libraries
  		LDFLAGS += -Wl,--no-undefined
 -		OUTPUT_NAME = lib$(LIB_NAME).so
 -		OUTPUT_COMMAND = $(CXX) -o $(OUTPUT_FILE) $(OBJ_FILES) $(LDFLAGS) -shared
-+		OUTPUT_NAME = lib$(LIB_NAME).so.0
++		OUTPUT_NAME = lib$(LIB_NAME).so.1
 +		OUTPUT_COMMAND = $(CXX) -o $(OUTPUT_FILE) $(OBJ_FILES) $(LDFLAGS) -shared -Wl,-soname,${OUTPUT_NAME} && cd ${OUT_DIR} && ln -fs ${OUTPUT_NAME} lib$(LIB_NAME).so
  	else
  		LDFLAGS += -undefined error
@@ -27,7 +27,7 @@ Subject: Add SONAME to libraries
  
  /** A string that specifies the postfix of shared library files. */ 
 -#define XN_SHARED_LIBRARY_POSTFIX ".so"
-+#define XN_SHARED_LIBRARY_POSTFIX ".so.0"
++#define XN_SHARED_LIBRARY_POSTFIX ".so.1"
  
  //---------------------------------------------------------------------------
  // Threads
