@@ -1,3 +1,10 @@
+openni2 (2.3.0.14.2-1ubuntu1) quantal; urgency=low
+
+  * Removed generated files.
+  * Changed SOName-Id to 1 since not binary compatible:
+
+ -- Hauke Wintjen <hwintjen@rimpl-consulting.de>  Tue, 12 Nov 2013 21:28:20 +0100
+
 openni2 (2.3.0.14.1-1) unstable; urgency=low
 
   * Initial creation of debian package
