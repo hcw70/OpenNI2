@@ -1,2 +1,0 @@
-shlibs:Depends=libc6 (>= 2.15), libgcc1 (>= 1:4.1.1), libjpeg8 (>= 8c), libstdc++6 (>= 4.1.1), libudev0 (>= 147), libusb-1.0-0 (>= 2:1.0.8)
-misc:Depends=
