@@ -1,4 +1,4 @@
-openni2 (2.3.0.14.2-1ubuntu1) quantal; urgency=low
+openni2 (2.3.0.14.3-1ubuntu1) quantal; urgency=low
 
   * Removed generated files.
   * Changed SOName-Id to 1 since not binary compatible:
