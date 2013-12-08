@@ -2,7 +2,6 @@ Source: openni2
 Priority: optional
 Section: libs
 Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
-DM-Upload-Allowed: yes
 Uploaders: Hans-Christoph Steiner <hans@eds.org>,
            Cosimo Alfarano <kalfa@debian.org>,
            Nobuhiro Iwamatsu <iwamatsu@debian.org>
