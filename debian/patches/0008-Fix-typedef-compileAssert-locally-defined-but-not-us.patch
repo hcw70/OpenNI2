@@ -1,0 +1,22 @@
+From: Jochen Sprickerhof <jochen@sprickerhof.de>
+Date: Thu, 27 Feb 2014 19:44:22 +0100
+Subject: =?utf-8?q?Fix_typedef_=E2=80=98compileAssert=E2=80=99_locally_def?=
+ =?utf-8?q?ined_but_not_used?=
+
+---
+ Source/Drivers/PSLink/LinkProtoLib/XnLinkProtoUtils.h | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/Source/Drivers/PSLink/LinkProtoLib/XnLinkProtoUtils.h b/Source/Drivers/PSLink/LinkProtoLib/XnLinkProtoUtils.h
+index d3f16b7..8126456 100644
+--- a/Source/Drivers/PSLink/LinkProtoLib/XnLinkProtoUtils.h
++++ b/Source/Drivers/PSLink/LinkProtoLib/XnLinkProtoUtils.h
+@@ -15,7 +15,7 @@
+ #define XN_MASK_LINK "xnLink"
+ 
+ #ifndef XN_COMPILER_ASSERT
+-#define XN_COMPILER_ASSERT(x) typedef int compileAssert[x ? 1 : -1]
++#define XN_COMPILER_ASSERT(x)
+ #endif
+ 
+ template <typename T>
