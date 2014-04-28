@@ -15,6 +15,7 @@ override_dh_auto_clean:
 	dh_auto_clean
 	rm -rf -- Source/Documentation/html/
 	rm -rf -- Source/Documentation/Temp/
+	rm -rf -- Source/Documentation/java/
 	rm -rf -- Bin/Intermediate
 	rm -rf -- Bin/*-Release
 	rm -rf -- ThirdParty/PSCommon/XnLib/Bin/*-Release
