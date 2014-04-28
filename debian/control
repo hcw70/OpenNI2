@@ -2,18 +2,19 @@ Source: openni2
 Priority: optional
 Section: libs
 Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+DM-Upload-Allowed: yes
 Uploaders: Hans-Christoph Steiner <hans@eds.org>,
            Cosimo Alfarano <kalfa@debian.org>,
            Nobuhiro Iwamatsu <iwamatsu@debian.org>
 Build-Depends: debhelper (>= 7.0.50~),
+	       debsums (>= 2.0.0),
                freeglut3-dev,
                libusb-1.0-0-dev (>= 1.0.8),
                python (>= 2.6),
                doxygen,
                libjpeg-dev,
-               graphviz,
-               libudev-dev
-Standards-Version: 3.9.2
+               graphviz
+Standards-Version: 3.9.5
 Homepage: http://www.openni.org
 Vcs-Git: https://github.com/hcw70/OpenNI2.git
 Vcs-Browser: https://github.com/hcw70/OpenNI2.git
