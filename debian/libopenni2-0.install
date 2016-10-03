@@ -1,0 +1,3 @@
+Bin/*-Release/libOpenNI2.so.* usr/lib/
+Bin/*-Release/OpenNI2/Drivers/lib*.so.* usr/lib/OpenNI2/Drivers/
+Config/*.ini etc/openni2/

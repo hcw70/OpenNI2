@@ -1,0 +1,30 @@
+Format-Specification: http://svn.debian.org/wsvn/dep/web/deps/dep5.mdwn?rev=135
+Name: openni2
+Maintainer: Hauke Wintjen
+Source: https://github.com/hcw/OpenNI2-debian/tarball/Stable-1.5.2.23
+
+Copyright: 2010-2013, PrimeSense Ltd.
+License: APACHE-2.0
+
+Files: debian/*
+Copyright: 2010-2013, Hans-Christoph Steiner <hans@eds.org>
+	2011, Cosimo Alfarano <kalfa@debian.org>
+	2013,  Hauke Wintjen <hwintjen@rimp-consulting.de>
+License: GPL-3+
+
+
+License: APACHE-2.0
+    OpenNI 2.0
+    Copyright (c) 2012 PrimeSense Ltd.
+    
+    This product is licensed under the Apache License, Version 2.0 (the "License");
+    
+    You should have received a copy of the Apache License
+    along with OpenNI. If not, see:
+        http://www.apache.org/licenses/LICENSE-2.0  
+    
+    This software is based in part on the work of the Independent JPEG Group.
+    
+    Your use of the library may involve use of the Microsoft Kinect for Windows Software Development Kit, 
+    which is currently subject to the following license: 
+        http://www.microsoft.com/en-us/kinectforwindows/develop/sdk-eula.aspx

@@ -1,0 +1,11 @@
+--- a/Source/Core/OniContext.cpp
++++ b/Source/Core/OniContext.cpp
+@@ -28,7 +28,7 @@
+ #else
+ static const char* ONI_ENV_VAR_DRIVERS_REPOSITORY = "OPENNI2_DRIVERS_PATH";
+ #endif
+-static const char* ONI_DEFAULT_DRIVERS_REPOSITORY = XN_FILE_LOCAL_DIR "OpenNI2" XN_FILE_DIR_SEP "Drivers";
++static const char* ONI_DEFAULT_DRIVERS_REPOSITORY = "/usr/lib/" "OpenNI2" XN_FILE_DIR_SEP "Drivers";
+ 
+ ONI_NAMESPACE_IMPLEMENTATION_BEGIN
+ 
